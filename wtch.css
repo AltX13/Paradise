@@ -1,0 +1,10 @@
+.vid{
+    margin: 3%;
+}
+
+.text{
+    display: grid;
+    place-content: center;
+    font-size: x-large;
+    margin-top: 0;
+}

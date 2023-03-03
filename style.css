@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*font-family: 'Fredoka One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+*{
+    
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #eee;
+  
+    
+}
+
+.header {
+background-color: rgb(255, 255, 252,);
+
+}
+
+.header h1 {
+font-family: 'Fredoka One', cursive;
+color: rgb(255, 127, 17);
+display: grid;
+place-items: center;
+margin: 0px;
+padding-top: 22px;
+padding-bottom: 22px;
+font-size: 45px;
+
+}
+
+hr
+{
+  height: 5px;  
+  background-color: rgb(255, 127, 17);
+  border: 0px;
+  size: 100%;
+}
+
+
+
+
+
+
+.cardgrid 
+{
+    display: grid;
+    grid-template-columns:  repeat(5, auto);
+    grid-auto-rows: minmax(150px, auto);
+    width: auto;
+    height: auto;
+    gap: 2rem;
+    margin-top: 3rem;
+    
+
+}
+
+
+
+.items{
+    background-color: rgb(255, 255, 255);
+    width: 16vw;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.5);
+    transition: 0.2s;
+    height: auto;
+    
+}
+
+.items:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 5rem 10rem rgba(0,0,0,0.8);
+}
+
+.img{
+    display: block;
+    width: 100%;
+    height: 1000%;
+    object-fit: cover;
+    
+}
+
+.content{
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.download{
+    display: grid;
+    place-items: center;
+
+    background-color:rgb(255, 127, 17) ;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.445);
+    width: 120px;
+    height: 50px;
+    margin: 18px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+    
+}
+
+
+
+.download:hover{
+    background-color: greenyellow;
+    box-shadow: 0 5px 15px rgba(51, 255, 119, 0.788); 
+    color: black;
+}
+
+.watch{
+    display: grid;
+    place-items: center;
+
+    background-color:rgba(255, 255, 255, 0) ;
+    border-style:solid;
+    border-color: rgb(255, 127, 17);
+    border-radius: 5px;
+    border-width: 2.5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.445);
+    width: 120px;
+    height: 50px;
+    margin: 18px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+
+.watch:hover{
+
+}
+
+.text{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
